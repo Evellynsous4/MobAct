@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Localizador de Mobilizadores</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Localizador de Mobilizadores</header>
+<div class="container">
+    <div class="filters">
+        <select id="filterUF">
+            <option value="">Selecionar UF</option>
+        </select>
+        <select id="filterMunicipio">
+            <option value="">Selecionar Município</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Buscar...">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>UF</th>
+                <th>Município</th>
+                <th>Data Solicitação</th>
+                <th>Solicitação de Mudança</th>
+                <th>Nome</th>
+                <th>Número Contato</th>
+                <th>E-mail</th>
+                <th>Status</th>
+                <th>Data</th>
+                <th>Modificação na PCI</th>
+                <th>Observação</th>
+                <th>Link do Ofício</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaDados"></tbody>
+    </table>
+</div>
+
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
